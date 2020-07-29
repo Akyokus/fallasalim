@@ -1,0 +1,21 @@
+@media (max-width: 1024px) {
+
+    .flex-scroll,
+    .nav-linear .nav {
+        overflow-x: auto;
+        white-space: nowrap;
+        flex-wrap: nowrap !important;
+    } 
+    .hero {
+    	height: auto;
+    }
+    .md-form-group .dropdown-toggle {
+    	border-right: 0px !important;
+    	margin-bottom: 5px;
+    }
+    .md-form-group .dropdown-toggle i {
+    	width: 20px;
+    	height: 20px;
+    	text-align: center;
+    }
+}
